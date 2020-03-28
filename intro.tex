@@ -1,0 +1,141 @@
+\documentclass[aspectratio=169, unicode, 10pt]{beamer}
+\usepackage{fontspec}
+\usepackage[noto]{zxjafont}
+\usepackage{color}
+\XeTeXlinebreaklocale "ja"
+\usetheme{Goettingen}
+\title{研究室紹介}
+\author{森田 太郎}
+\institute[Sophia,NIMS]{Sophia University, National Institute for Materials Science}
+
+\begin{document}
+	\begin{frame}{}
+		\titlepage
+	\end{frame}
+
+	\section{研究テーマ}
+	\begin{frame}{目次}
+		\tableofcontents[currentsection, hideothersubsections]
+	\end{frame}
+
+	\begin{frame}
+		\begin{block}{研究テーマ名}
+			微量元素添加を行った内部スズ法Nb\textsubscript{3}Sn線材における拡散反応現象メカニズムの解明と超伝導特性向上の研究
+		\end{block}
+	\end{frame}
+
+
+	\section{超伝導について}
+	\begin{frame}{目次}
+		\tableofcontents[currentsection, hideothersubsections]
+	\end{frame}
+
+	\subsection{超伝導とは}
+	\begin{frame}{超伝導とは}
+		\begin{block}{超伝導の特徴}
+			\begin{itemize}
+				\item \textcolor{red}{電気抵抗がゼロ}
+				\item 磁場が侵入しない
+			\end{itemize}
+		\end{block}
+	\end{frame}
+
+	\subsection{超伝導の領域（限界）}
+	\begin{frame}{超伝導の領域}
+		\begin{itemize}
+			\item ある一定の磁場，温度，電流で囲まれた領域で\textcolor{red}{超伝導}が発現する．
+			\item 臨界値をそれぞれ\textcolor{red}{臨界磁場}，\textcolor{red}{臨界温度}，\textcolor{red}{臨界電流}と呼ぶ．
+			\item 臨界温度，臨界磁場は材料によってほぼ決まっているが，臨界電流は\textcolor{red}{ピンニング特性を改善する}ことで特性が向上する．
+		\end{itemize}
+	\end{frame}
+
+	\subsection{ピンニング機構とは}
+	\begin{frame}{ピンニング機構について}
+		\begin{itemize}
+			\item Type 2超伝導体内には磁束侵入．電流印可で磁束に\textcolor{red}{ローレンツ力}が働く．
+			\item ローレンツ力により磁束が運動し始めると\textcolor{red}{起電力が発生し超伝導状態が破れる．}
+			\item Type 2超伝導体内に侵入した磁束は\textcolor{red}{ピンニング点}と呼ばれる点で\textcolor{red}{ピン留め}される．
+			\item \textcolor{red}{結晶粒界}，不均質部などが主なピンニング点．
+		\end{itemize}
+		\vspace{5mm}
+		\centering
+		\pause{\textcolor{red}{ピンニング点の密度を増加することで臨界電流が向上}}
+	\end{frame}
+
+	\section{Nb\textsubscript{3}Snについて}
+	\begin{frame}{目次}
+		\tableofcontents[currentsection, hideothersubsections]
+	\end{frame}
+
+	\subsection{Nb\textsubscript{3}Sn線材の作り方}
+	\begin{frame}{Nb\textsubscript{3}Sn線材の作り方}
+		\begin{enumerate}
+			\item 前駆体となるパイプ．ロッドを用意・組み立て
+			\item スエージング・冷間引抜加工\textcolor{red}{【伸線加工】}
+			\item 1段階目熱処理 (for Sn/Cu mixing)
+			\item 2段階目熱処理（for Nb\textsubscript{3}Sn formation）
+		\end{enumerate}
+	\end{frame}
+
+	\subsection{Nb\textsubscript{3}Snの特徴}
+	\begin{frame}{Nb\textsubscript{3}Snについて}
+		\begin{block}{Nb\textsubscript{3}Snの特徴・メリット}
+			\begin{itemize}
+				\item 低温超伝導（$T_\mathrm{c} = 18$~K）．A15結晶組織．
+				\item 工業化に適している．製造しやすく実績がある．
+				\item 線材形状の柔軟性に富む．
+				\item 優れた高磁界特性
+			\end{itemize}
+		\end{block}
+		\vspace{5mm}
+		\centering
+		\pause{次世代核融合炉や粒子加速器用マグネット材料として期待されている}
+	\end{frame}
+
+	\subsection{Nb\textsubscript{3}Sn線材の課題}
+	\begin{frame}{Nb\textsubscript{3}Sn線材の課題}
+		\begin{block}{Nb\textsubscript{3}Snの課題点}
+			\begin{itemize}
+				\item \textcolor{red}{機械的な強度が著しく低い}
+				\item 特性が飽和状態
+			\end{itemize}
+			\vspace{5mm}
+			\centering
+			\pause{\textcolor{red}{次世代高磁場機器では高い$J_\mathrm{c}$特性，機械的強度が求められているため抜本的な解決策が必要}}
+		\end{block}
+	\end{frame}
+
+	\subsection{Nb\textsubscript{3}Sn特性のキーポイント}
+	\begin{frame}{Nb\textsubscript{3}Sn特性のキーポイント}
+		\begin{block}{特性向上のキーポイント}
+			\begin{block}{Nb\textsubscript{3}Sn層厚}
+				\begin{itemize}
+					\item Nb\textsubscript{3}SnはNbとSn間の\textcolor{red}{固相拡散反応}によって生成される
+					\item 未反応Nbが最小，全体がNb\textsubscript{3}Snとなるとよい
+				\end{itemize}
+			\end{block}
+			\begin{block}{Nb\textsubscript{3}Sn結晶粒径}
+				\begin{itemize}
+					\item 結晶粒径が小さいほど\textcolor{red}{結晶粒界は多くなる}
+					\item 結晶粒界はピンニング点となる
+				\end{itemize}
+			\end{block}
+			\begin{block}{Nb\textsubscript{3}Snの化学量論性}
+				\begin{itemize}
+					\item 化学式通りの組成を\textcolor{red}{化学量論性(Stoichiometry)という}
+					\item Nb\textsubscript{3}Snは固相拡散反応によって生成されるので一般的にはNb\textsubscript{3}Sn層に組成勾配がある．できるだけNb:Sn = 3:1に近づける
+				\end{itemize}
+			\end{block}
+		\end{block}
+	\end{frame}
+
+	\subsection{従来のアプローチ}
+	\begin{frame}{従来のアプローチ}
+		\begin{itemize}
+			\item 従来線材は\textcolor{red}{Sn拡散長（Nbフィラメント径）}，\textcolor{red}{仕込みNb:Sn:Cu比}，\textcolor{red}{熱処理条件}を最適化することで特性の向上
+			\item 上記最適化の研究はここ20年のうちに殆どやり尽くされている
+		\end{itemize}	
+		\centering
+		\pause{\Large \textcolor{red}{抜本的な解決策が必要}}
+	\end{frame}
+\end{document}
